@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ar="مطعم الأحمدي - بوفيه فاخر" data-en="Silage Restaurant - Luxury Buffet">مطعم الأحمدي - بوفيه فاخر</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="تجربة بوفيه عالمي فاخرة طوال اليوم. مطعم الأحمدي يوفر إفطار، غداء، وعشاء بنكهات عالمية وجلسات داخلية وخارجية مميزة." data-ar="تجربة بوفيه عالمي فاخرة طوال اليوم في مطعم الأحمدي." data-en="A luxury global buffet experience all day long at Silage Restinfo@alahmadiurant.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Matching Silage -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Popup -->
+    <div id="discount-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div class="popup-icon"><i class="fas fa-gift"></i></div>
+            <h2 data-ar="خصم 20% اليوم!" data-en="20% OFF TODAY!">خصم 20% اليوم!</h2>
+            <p data-ar="استمتع بتجربة البوفيه العالمي الفاخر مع خصم حصري." data-en="Enjoy our luxury global buffet with an exclusive discount.">استمتع بتجربة البوفيه العالمي الفاخر مع خصم حصري.</p>
+            <a href="#reservations" class="btn-primary popup-btn" data-ar="احجز طاولتك الآن" data-en="Book Your Table Now">احجز طاولتك الآن</a>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo" style="display: flex; align-items: center; gap: 8px;">
+                <h1 class="logo-text" data-ar="Silage" data-en="Silage" style="margin: 0;">Silage</h1>
+                <i class="fas fa-fire" style="color: #ff5e00; font-size: 1.8rem;"></i>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                <a href="#menu" data-ar="قائمة الطعام" data-en="Menu">قائمة الطعام</a>
+                <a href="#reservations" data-ar="الحجز" data-en="Reservations">الحجز</a>
+                <a href="#order" data-ar="اطلب الآن" data-en="Order Online">اطلب الآن</a>
+                <a href="#about" data-ar="عن المطعم" data-en="About Us">عن المطعم</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="btn-secondary">EN</button>
+            </div>
+            <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- 1. Home (Hero Section) -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <span class="welcome-text" data-ar="Welcome To Silage" data-en="Welcome To Silage">Welcome To Silage</span>
+            <h1 data-ar="تجربة بوفيه عالمي فاخرة طوال اليوم" data-en="Experience the best only taste of luxury">تجربة بوفيه عالمي فاخرة طوال اليوم</h1>
+            <p class="desc" data-ar="أشهى الأطباق من المطبخ العالمي تقدم بحب وإتقان لإرضاء جميع الأذواق" data-en="It is a long established fact that a reader will be distracted by the readable content of a page.">أشهى الأطباق من المطبخ العالمي تقدم بحب وإتقان لإرضاء جميع الأذواق</p>
+            <div class="hero-buttons">
+                <a href="#reservations" class="btn-primary"><span data-ar="احجز الآن" data-en="Book Now">احجز الآن</span></a>
+                <a href="#order" class="btn-secondary"><span data-ar="اطلب توصيل" data-en="Order Delivery">اطلب توصيل</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Menu / Buffet Experience -->
+    <section id="menu" class="section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle" data-ar="اكتشف النكهات" data-en="Discover Flavors">اكتشف النكهات</span>
+                <h2 data-ar="تجربة البوفيه العالمي" data-en="The Global Buffet Experience">تجربة البوفيه العالمي</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="menu-circle-grid">
+                <div class="circle-item">
+                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
+                    <div class="circle-content">
+                        <h3 data-ar="مطبخ عالمي" data-en="Global Kitchen">مطبخ عالمي</h3>
+                        <p data-ar="أشهى الأطباق من أنحاء العالم" data-en="Delicious dishes from around the world">أشهى الأطباق من أنحاء العالم</p>
+                    </div>
+                </div>
+                <div class="circle-item">
+                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
+                    <div class="circle-content">
+                        <h3 data-ar="ياباني" data-en="Japanese">ياباني</h3>
+                        <p data-ar="سوشي طازج وأصناف آسيوية" data-en="Fresh sushi and Asian delights">سوشي طازج وأصناف آسيوية</p>
+                    </div>
+                </div>
+                <div class="circle-item">
+                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
+                    <div class="circle-content">
+                        <h3 data-ar="شرق أوسطي" data-en="Middle Eastern">شرق أوسطي</h3>
+                        <p data-ar="مشاوي ومقبلات أصيلة" data-en="Authentic grills and appetizers">مشاوي ومقبلات أصيلة</p>
+                    </div>
+                </div>
+                <div class="circle-item">
+                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
+                    <div class="circle-content">
+                        <h3 data-ar="مأكولات بحرية" data-en="Seafood">مأكولات بحرية</h3>
+                        <p data-ar="تشكيلة فاخرة من ثمار البحر" data-en="A luxury selection of seafood">تشكيلة فاخرة من ثمار البحر</p>
+                    </div>
+                </div>
+                <div class="circle-item">
+                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
+                    <div class="circle-content">
+                        <h3 data-ar="سلطات" data-en="Salads">سلطات</h3>
+                        <p data-ar="تشكيلة سلطات عضوية" data-en="Organic salad selection">تشكيلة سلطات عضوية</p>
+                    </div>
+                </div>
+                <div class="circle-item">
+                    <div class="circle-img" style="background-image: url('https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')"></div>
+                    <div class="circle-content">
+                        <h3 data-ar="حلويات" data-en="Desserts">حلويات</h3>
+                        <p data-ar="حلويات عالمية وشرقية فاخرة" data-en="Luxury global and oriental desserts">حلويات عالمية وشرقية فاخرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Cooking (Image Hero) -->
+    <section class="video-hero" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; position: relative;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container text-center" style="position: relative; z-index: 2;">
+            <i class="fas fa-fire fa-3x" style="color: var(--primary-red); margin-bottom: 20px;"></i>
+            <h2 data-ar="محطات طهي مباشرة" data-en="Live Cooking Stations" style="font-size: 4rem; color: var(--white); margin-bottom: 20px;">محطات طهي مباشرة</h2>
+            <p class="desc" data-ar="استمتع بتجربة مشاهدة الطهاة وهم يحضرون أطباقك المفضلة مباشرة أمامك، من الباستا الإيطالية إلى المشاوي المتنوعة." data-en="Enjoy watching our chefs prepare your favorite dishes live in front of you, from Italian pasta to various grills." style="font-size: 1.8rem; color: var(--text-light); max-width: 800px; margin: 0 auto; line-height: 1.6;">استمتع بتجربة مشاهدة الطهاة وهم يحضرون أطباقك المفضلة مباشرة أمامك، من الباستا الإيطالية إلى المشاوي المتنوعة.</p>
+        </div>
+    </section>
+
+
+    <!-- 3. Reservations (Split Layout with Chef) -->
+    <section id="reservations" class="reservation-section">
+        <div class="container res-split-container">
+            <!-- Left Side: Form -->
+            <div class="res-form-wrapper">
+                <div class="section-title res-left-title">
+                    
+                    <h2 data-ar="احجز طاولتك" data-en="For Online Reservation" id="res-title-text">For Online Reservation</h2>
+                    <div class="divider res-divider"></div>
+                </div>
+                <form id="reservation-form" class="custom-res-form shake-on-reach">
+                    <div class="form-grid-single">
+                        <div class="form-group custom-input-group">
+                            <input type="text" id="res-name" placeholder="الاسم / Name" required>
+                        </div>
+                        <div class="form-group custom-input-group">
+                            <input type="tel" id="res-phone" placeholder="رقم الهاتف / Phone" required>
+                        </div>
+                        <div class="form-group custom-input-group">
+                            <select id="res-people">
+                                <option value="" disabled selected data-ar="عدد الأشخاص / Guests" data-en="Guests">عدد الأشخاص / Guests</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5+">5+ People</option>
+                            </select>
+                        </div>
+                        <div class="form-group custom-input-group">
+                            <input type="date" id="res-date" required>
+                        </div>
+                        <div class="form-group custom-input-group">
+                            <input type="time" id="res-time" required>
+                        </div>
+                        <div class="form-group custom-input-group" style="display:none;">
+                            <input type="text" id="res-occasion" value="General">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary res-submit-btn" id="res-submit-btn" data-ar="احجز الآن" data-en="Reserve Now">Reserve Now</button>
+                </form>
+            </div>
+
+            <!-- Right Side: Chef Image (Pointing towards Form) -->
+            <div class="res-chef-image" id="chef-image-container">
+                <img src="chef.jpg" alt="Executive Chef Silage gesturing to form">
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Order Online -->
+    <section id="order" class="section order-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="subtitle" data-ar="خدماتنا" data-en="Our Services">خدماتنا</span>
+                <h2 data-ar="الطلب السريع" data-en="Order Online">الطلب السريع</h2>
+                <div class="divider"></div>
+                <p data-ar="سهلة وسريعة - توصيل أو استلام" data-en="Fast & Easy - Delivery or Takeout" style="color:var(--text-muted-dark);">سهلة وسريعة - توصيل أو استلام</p>
+            </div>
+            
+            <div class="order-content text-center" style="max-width: 600px; margin: 0 auto;">
+                <div class="order-options" style="justify-content: center;">
+                    <button class="order-btn active" data-ar="توصيل (Delivery)" data-en="Delivery">توصيل (Delivery)</button>
+                    <button class="order-btn" data-ar="استلام (Takeout)" data-en="Takeout">استلام (Takeout)</button>
+                </div>
+                <div class="packages mt-4">
+                    <div class="package-card" style="text-align: right;">
+                        <div class="pkg-icon"><i class="fas fa-box-open"></i></div>
+                        <div>
+                            <h4 data-ar="بوكس بوفيه" data-en="Buffet Box">بوكس بوفيه</h4>
+                            <p data-ar="تشكيلة كاملة لمنزلك" data-en="Full variety for your home">تشكيلة كاملة لمنزلك</p>
+                        </div>
+                    </div>
+                    <div class="package-card" style="text-align: right;">
+                        <div class="pkg-icon"><i class="fas fa-utensils"></i></div>
+                        <div>
+                            <h4 data-ar="وجبات جاهزة" data-en="Ready Meals">وجبات جاهزة</h4>
+                            <p data-ar="اختيارات سريعة ولذيذة" data-en="Fast and delicious choices">اختيارات سريعة ولذيذة</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#order" class="btn-primary full-width mt-4 text-center" style="display:block;" data-ar="اطلب الآن (Talabat)" data-en="Order Now (Talabat)">اطلب الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. About Us -->
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-images">
+                <div class="img-1" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AHVAweohZNpuTmXF58My-NFekVbvIYbYdF4HUEl2kxi08131leqbvZi6Y0Y7SQ9tAFRJGgwrvGs99q_4XL3lBRzlnM8uIw2lXnZOjtviufv2QC_e3TLfDAZfk2igwj8Xz1SAHbCRfVlY=s1600')"></div>
+            </div>
+            <div class="about-content">
+                <span class="subtitle" data-ar="عن المطعم" data-en="About Silage">عن المطعم</span>
+                <h2 data-ar="عراقة وفخامة" data-en="Come to Our Restaurant, Ready Your Food.">عراقة وفخامة</h2>
+                <div class="divider"></div>
+                <p data-ar="منذ تأسيسه، التزم مطعم الأحمدي بتقديم تجربة طعام استثنائية تمزج بين الأصالة القديمة والفخامة المعاصرة. نحن نقدم أكثر من مجرد وجبة؛ نحن نقدم ذكريات." data-en="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.">منذ تأسيسه، التزم مطعم الأحمدي بتقديم تجربة طعام استثنائية تمزج بين الأصالة القديمة والفخامة المعاصرة. نحن نقدم أكثر من مجرد وجبة؛ نحن نقدم ذكريات.</p>
+                <div class="why-us mt-4">
+                    <div class="why-item">
+                        <i class="fas fa-star"></i>
+                        <span data-ar="التنوع" data-en="Variety">التنوع</span>
+                    </div>
+                    <div class="why-item">
+                        <i class="fas fa-medal"></i>
+                        <span data-ar="الجودة" data-en="Pure Fresh Food">الجودة</span>
+                    </div>
+                    <div class="why-item">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span data-ar="الخدمة" data-en="Expert Chefs">الخدمة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Services & Amenities -->
+    <section class="section bg-light">
+        <div class="container text-center">
+            <h2 style="margin-bottom: 40px;" data-ar="الخدمات والمميزات" data-en="Services & Amenities">الخدمات والمميزات</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-wifi"></i>
+                    <p data-ar="واي فاي مجاني" data-en="Free Wifi">واي فاي مجاني</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-baby"></i>
+                    <p data-ar="كراسي أطفال" data-en="Baby Chairs">كراسي أطفال</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-wheelchair"></i>
+                    <p data-ar="مناسب لذوي الإعاقة" data-en="Wheelchair Accessible">مناسب لذوي الإعاقة</p>
+                </div>
+               
+                <div class="service-item">
+                    <i class="fas fa-sun"></i>
+                    <p data-ar="جلسات خارجية" data-en="Outdoor Seating">جلسات خارجية</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-users"></i>
+                    <p data-ar="مناسب للعائلات" data-en="Family Friendly">مناسب للعائلات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Reviews -->
+    <section class="section reviews-section" id="reviews">
+        <div class="container text-center">
+            <div class="section-title">
+                <span class="subtitle" data-ar="آراء عملائنا" data-en="Customers Say" style="font-size: 1.8rem; font-style: normal;">آراء عملائنا</span>
+                <h2 data-ar="مراجعة" data-en="REVIEW" style="font-family: var(--font-heading); font-size: 3rem; letter-spacing: 5px; text-transform: uppercase;">مراجعة</h2>
+            </div>
+            
+            <div class="reviews-carousel">
+                <div class="review-slide active">
+                    <div class="review-avatar-container">
+                        <img src="yoja_avatar.png" alt="Yoja Q8">
+                    </div>
+                    <p class="quote" data-ar='"المكان مذهل، أحببت الطعام والخدمة ممتازة.. شكراً لفيرجيل، لقد كان متعاوناً ولطيفاً جداً"' data-en='"The place in amazing ,I love the food the service is excellent .. thanks to Vergel he was so helpful and kind"'>"المكان مذهل، أحببت الطعام والخدمة ممتازة.. شكراً لفيرجيل، لقد كان متعاوناً ولطيفاً جداً"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="reviewer-name" data-ar="يوجا Q8" data-en="Yoja Q8">يوجا Q8</p>
+                </div>
+                 <div class="review-slide">
+                    <div class="review-avatar-container">
+                        <img src="effy_avatar.png" alt="Effy Fanai">
+                    </div>
+                    <p class="quote" data-ar='"برايل، بإن الموظف منتبه للغاية، مهذب وودود للغاية. كما أنه مجتهد للغاية وجيد في عمله. مقدر للغاية. شكرًا لك على الخدمة المذهلة."' data-en='"brylle, he is such an attentive staff, very polite and friendly staff. He is also very hardworking and good with his work. Much appreciated. Thank you for the amazing service."'>"برايل، بإن الموظف منتبه للغاية، مهذب وودود للغاية. كما أنه مجتهد للغاية وجيد في عمله. مقدر للغاية. شكرًا لك على الخدمة المذهلة."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="reviewer-name" data-ar="إيفي فاناي" data-en="Effy Fanai">إيفي فاناي</p>
+                </div>
+                <div class="review-slide">
+                    <div class="review-avatar-container">
+                        <img src="vishnu_avatar.png" alt="vishnu deepan">
+                    </div>
+                    <p class="quote" data-ar='"بعد تسجيل الدخول، تناولت فطورًا لطيفًا جدًا. لقد ساعدني السيد توماس. يمكن للمرء الاستمتاع بمجموعة متنوعة من البوفيهات العالمية."' data-en='"After check in had a very Nice Breakfast. Mr.Thomad assisted me. One can Enjoy Variety of International Buffett."'>"بعد تسجيل الدخول، تناولت فطورًا لطيفًا جدًا. لقد ساعدني السيد توماس. يمكن للمرء الاستمتاع بمجموعة متنوعة من البوفيهات العالمية."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="reviewer-name" data-ar="فيشنو ديبان" data-en="vishnu deepan">فيشنو ديبان</p>
+                </div>
+                <div class="review-slide">
+                    <div class="review-avatar-container">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Murat Kartal">
+                    </div>
+                    <p class="quote" data-ar='"طاقم العمل جيد جدًا، وخاصة توماس وفيشيش وبيشنو، فهم أشخاص طيبون بشكل خاص"' data-en='"Personals are very good especially THOMAS and VISHESH and BISHNU are especially Good persons"'>"طاقم العمل جيد جدًا، وخاصة توماس وفيشيش وبيشنو، فهم أشخاص طيبون بشكل خاص"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="reviewer-name" data-ar="مراد كارتال" data-en="Murat Kartal">مراد كارتال</p>
+                </div>
+                <div class="review-slide">
+                    <div class="review-avatar-container">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80" alt="Moh 007">
+                    </div>
+                    <p class="quote" data-ar='"الطعام رائع، الأجواء لطيفة للغاية، الموظفون ودودون للغاية ومرحبون، شكر خاص لتوماس، جربت الحمام المصري لأول مرة، وهو رائع جدًا"' data-en='"Food is great, the ambience is so nice, the staff are super friendly and welcoming, special thanks to Thomas, I tried the Egyptian Pigeon for the first time, and it is gooood"'>"الطعام رائع، الأجواء لطيفة للغاية، الموظفون ودودون للغاية ومرحبون، شكر خاص لتوماس، جربت الحمام المصري لأول مرة، وهو رائع جدًا"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="reviewer-name" data-ar="Moh 007" data-en="Moh 007">Moh 007</p>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- 9. Contact & Location -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Map Placeholder Removed -->
+                
+                <div class="contact-info">
+                    <h3 data-ar="العنوان" data-en="ADDRESS">العنوان</h3>
+                    <p data-ar="الكويت، مدينة الكويت" data-en="Kuwait City, Kuwait">الكويت، مدينة الكويت</p>
+                    <p>Silage Restaurant</p>
+                    
+                    <h3 class="mt-4" data-ar="ساعات العمل" data-en="OPENING HOURS">ساعات العمل</h3>
+                    <p data-ar="الاثنين - الأحد: 7 صباحاً - 11 مساءً" data-en="Mon - Sun: 7 AM - 11 PM">الاثنين - الأحد: 7 صباحاً - 11 مساءً</p>
+                    
+                    <h3 class="mt-4" data-ar="التواصل" data-en="CONTACT">التواصل</h3>
+                    <p>Kuwait Number: (+965) 109790</p>
+                    <p>Email: info@Silage.com</p>
+
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Silage Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div id="order-modal" class="popup">
+        <div class="popup-content">
+            <span class="close-order-btn" style="position: absolute; top: 15px; right: 20px; font-size: 1.5rem; cursor: pointer; color: var(--text-muted-dark);">&times;</span>
+            <h2 data-ar="تفاصيل الطلب" data-en="Order Details">Order Details</h2>
+            <div class="divider"></div>
+            <form id="order-form">
+                <div class="form-grid-single">
+                    <div class="form-group custom-input-group">
+                        <input type="text" id="order-name" placeholder="الاسم الكامل / Full Name" required>
+                    </div>
+                    <div class="form-group custom-input-group">
+                        <input type="tel" id="order-phone" placeholder="رقم الهاتف / Phone Number" required>
+                    </div>
+                    <div id="address-field" class="form-group custom-input-group" style="display:none;">
+                        <input type="text" id="order-address" placeholder="عنوان التوصيل / Delivery Address">
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary full-width mt-4" data-ar="تأكيد الطلب (WhatsApp)" data-en="Confirm Order (WhatsApp)">Confirm Order (WhatsApp)</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Whatsapp Direct Button -->
+    <a href="javascript:void(0)" class="whatsapp-btn" aria-label="Chat on WhatsApp" style="cursor: default;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
